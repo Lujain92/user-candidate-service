@@ -9,7 +9,6 @@ This project contains several modules and functionalities for managing users and
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Services](#services)
 - [Accessing Services](#accessing-services)
@@ -28,22 +27,17 @@ This project implements functionalities for managing users and candidates utiliz
 - Docker
 - Docker-compose
 
-## Installation
-
-1. Clone this repository.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Configure MongoDB connection details in the `utils.database` module.
 
 ## Usage
-
-1. To start the services, use the following command:
+1. Clone this repository.
+2. To start the services, use the following command:
 
 ```bash
 docker-compose up
 ```
 This will build the FastAPI service, set up a MongoDB instance, and launch Mongo Express for database management.
 
-2. Access the API endpoints described below.
+3. Access the API endpoints described below.
 
 
 
