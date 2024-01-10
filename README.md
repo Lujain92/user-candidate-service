@@ -89,25 +89,25 @@ Mongo Express provides a web-based user interface for managing the MongoDB insta
 
 ### Users
 
-- `GET /users`: Retrieve all users.
-- `POST /users`: Create a new user.
-- `GET /users/{id}`: Retrieve a user by ID.
-- `PUT /users/{id}`: Update a user by ID.
-- `DELETE /users/{id}`: Delete a user by ID.
+- `GET /user`: Retrieve all users.
+- `POST /user`: Create a new user.
+- `GET /user/{id}`: Retrieve a user by ID.
+- `PUT /user/{id}`: Update a user by ID.
+- `DELETE /user/{id}`: Delete a user by ID.
 
 ### Candidates
 
-- `POST /candidates`: Add a new candidate.
-- `GET /candidates`: Retrieve candidates with optional search queries.
-- `GET /candidates/{id}`: Retrieve a candidate by ID.
-- `PUT /candidates/{id}`: Update a candidate by ID.
-- `DELETE /candidates/{id}`: Delete a candidate by ID.
-- `GET /candidates/generate-report`: Generate a CSV report for candidates.
+- `POST /candidate`: Add a new candidate.
+- `GET /candidate`: Retrieve candidates with optional search queries.
+- `GET /candidate/{id}`: Retrieve a candidate by ID.
+- `PUT /candidate/{id}`: Update a candidate by ID.
+- `DELETE /candidate/{id}`: Delete a candidate by ID.
+- `GET /candidate/generate-report`: Generate a CSV report for candidates.
 
 
 ### Health
 
-- `GET /`: Check server health status.
+- `GET /health`: Check server health status.
   - **Description:** Endpoint to verify the server's operational status.
   - **Response:** Returns a JSON object containing the server status message.
     ```json
