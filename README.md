@@ -25,9 +25,8 @@ This project implements functionalities for managing users and candidates utiliz
 
 ## Prerequisites
 
-- Python (version X.X)
-- FastAPI
-- MongoDB
+- Docker
+- Docker-compose
 
 ## Installation
 
